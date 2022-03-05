@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Ruda';
+  src: url('../public/assets/fonts/Ruda-VariableFont_wght.ttf')  format('truetype'),
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.menu {
+  /* Auto layout */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-start;
+  padding: 0px 3px ;
+
+  position: relative;
+  width: 24px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  overflow-y: scroll;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  margin-right: 50px;
+  position: relative;
+  width: 78px;
+  height: 25px;
+  left: 10px;
+  top: 0px;
+  overflow-y: scroll;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link {
+  font-family: Ruda;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Ruda;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+
 }
+
