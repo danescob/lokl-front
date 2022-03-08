@@ -37,7 +37,7 @@ export function Simulador() {
       })
     };
 
-    fetch('http://localhost:8080/simulacion', requestOptions)
+    fetch('http://ec2-35-85-149-102.us-west-2.compute.amazonaws.com:8088/simulacion', requestOptions)
     .then(response => response.json())
     .then(data => () => {
       alert("La informacion se guardó");
@@ -58,7 +58,7 @@ export function Simulador() {
       headers: { 'Content-Type': 'application/json' }
     };
 
-    fetch('http://localhost:8080/usuario/'+hash, requestOptions)
+    fetch('http://ec2-35-85-149-102.us-west-2.compute.amazonaws.com:8088/usuario/'+hash, requestOptions)
     .then(response => response.json())
     .then(data => {
       const simulacion = new SimulacionModel(data.simulacion[0]);

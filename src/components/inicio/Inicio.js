@@ -39,7 +39,7 @@ export function Inicio(){
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(simulacionDatos)
     };
-    fetch('http://localhost:8080/usuario', requestOptions)
+    fetch('http://ec2-35-85-149-102.us-west-2.compute.amazonaws.com:8088/usuario', requestOptions)
     .then(response => response.json())
     .then(data => {
       alert("La informacion se guardó");
