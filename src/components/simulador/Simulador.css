@@ -1,0 +1,214 @@
+.simulador{
+  /* border: solid 1px blue; */
+}
+
+.lineaimputs{
+  margin-bottom: 10px;
+}
+
+.input {
+  border-style: hidden;
+  width: 100%;
+}
+
+.valor {
+  font-family: 'Gilroy-Bold';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.living {
+  font-family: 'Gilroy-Bold';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.meses {
+  font-family: 'Gilroy-Bold';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.porcentaje {
+  font-family: 'Gilroy-Bold';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.bajoinput{
+  font-family: Ruda;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #898787;
+  margin-top: 5px !important;
+  margin-bottom: 10px;
+}
+
+.simuladorlista{
+  width: 100%;
+}
+
+.titulolinea{
+  margin-top: 50px !important;
+  margin-bottom: 30px;
+}
+
+.titulo {
+  font-family: 'Gilroy-Bold';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.envio {
+  font-family: 'Gilroy-Bold';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #6DECB9;
+}
+
+.envio a {
+  color: #6DECB9;
+}
+
+.listatitulo {
+  font-family: 'Gilroy-Bold';
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 30px !important;
+  margin-bottom: 30px;
+}
+
+.simuladorlista {
+  width: 100%;
+}
+
+.simuladorItem {
+  width: 100%;
+}
+
+.listaAno {
+  font-family: Helvetica;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.listaAno.activo{
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px !important;
+}
+
+.listaValor {
+  font-family: 'Gilroy-Bold';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 20px;  
+  
+}
+.listaValor.activo{
+  font-size: 39px;
+  margin-bottom: 30px;
+}
+
+.restaurar {
+  font-family: 'Gilroy-Bold';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.restaurar a {
+  color: #000;
+}
+
+.suscribirme {
+  width: 205px;
+  height: 39px;
+  left: 562px;
+  top: calc(50% - 39px/2 + 291.5px);
+
+  background: #000000;
+  border-radius: 53px !important;
+}
+
+.pie {
+  font-family: Ruda;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.navegacion{
+  margin-top: 40px !important;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.flecha {
+  height: 250px;
+  position: relative;
+}
+
+.flecha img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.scrol {
+  position: relative;
+  float: right;
+  top: -200px;
+}

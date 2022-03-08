@@ -3,8 +3,8 @@ import "./Imagen.css";
 
 export function Imagen(){
   return (
-    <Col xs="4" md="4" lg="4">
-      <img src="/assets/img/lokl-right.png"></img>
+    <Col lg="5" className="imagen">
+      <img src="/assets/img/lokl-right.png" alt="" className="imagen"></img>
     </Col>
   )
 }

@@ -1,0 +1,150 @@
+.tituloinicio{
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  margin-top: 150px !important;
+}
+
+.tituloiniciolockl{
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  color: #6DECB9;
+  margin-top: 10px !important;
+  margin-bottom: 10px;
+}
+
+.subtituloinicio{
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.etiquetainicio{
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #CACACA;
+  margin-top: 10px !important;
+}
+
+.etiquetaliving {
+  font-size: 13px;
+}
+
+.resaltadoinicio {
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 5px !important;
+}
+
+.textocentrado {
+  text-align: center;
+}
+
+.botoncontinuar {
+  width: 200px;
+  height: 37px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(0deg, #000000, #000000);
+  border-radius: 27px;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  vertical-align: middle;
+  font-family: 'Gilroy-Bold';
+
+}
+
+.iconosinicio {
+  margin-left: -35px !important;
+  position: relative;
+  height: 200px;
+}
+
+.iconosinicio img {
+  position: absolute;
+  bottom: 0; 
+}
+
+.espaciosuperiorderecho {
+  height: 250px;
+}
+
+.espaciointermedio {
+  height: 30px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #9E9E9E;
+}
+
+.contenedorPeriodo {
+  position: relative;
+  float: left;
+  width: 113px;
+  height: 29px;
+  left: 0px;
+  top: 1px;
+  margin-left: 20px;
+  background: #6DECB9;
+  border-radius: 16px;
+}
+
+.aumentar {
+  position: relative;
+  float: left;
+  width: 30px;
+}
+
+.aumentar:hover {
+  cursor: pointer;
+}
+
+.disminuir {
+  position: relative;
+  float: left;
+  width: 30px;
+}
+
+.periodo {
+  position: relative;
+  float: left;
+  width: 53px;
+  text-align: center;
+  background: none;
+  border: none;
+}
+
+.botonesformulario {
+  position: fixed;
+}
+
+.botonesformulario .resaltadoinicio {
+  position: relative;
+  float: left;
+  margin-top: -15px !important;
+}
+.botonesformulario .botoncontinuar {
+  position: relative;
+  float: left;
+  margin-left: 20px;
+}
+
